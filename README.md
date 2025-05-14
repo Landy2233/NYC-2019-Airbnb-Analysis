@@ -8,8 +8,6 @@ This project involves the analysis and visualization of Airbnb data for New York
 - [Data](#data)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -61,3 +59,19 @@ Make sure you have **Python 3.x** installed. You also need the following librari
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/NYC-2019-Airbnb-Analysis.git
+
+## Usage 
+### Running the Dash App
+Once the dependencies are installed, you can run the Dash app with the following command:
+`python dash_app.py`
+
+This will start a local server, and you can open the dashboard in your browser at: 
+`http://127.0.0.1:8050/`
+
+### Interacting with the Dashboard
+- Use the dropdown menu to select a neighborhood (borough) in New York City.
+- The price distribution by room type will be visualized as a box plot.
+- The average price and total number of listings for the selected neighborhood will be displayed.
+
+
+
