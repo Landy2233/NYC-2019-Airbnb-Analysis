@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs or editors folders
+.idea/
+.vscode/
+
+# System files
+.DS_Store
